@@ -1,0 +1,301 @@
+====================
+     08-05-2017
+====================
+
+
+   * build/
+19c57ce Set Correct User & Hostname.
+
+   * device/yu/tomato/
+3351c9c Update Mixplorer
+57f1943 build.prop tweak.
+bc1327f Add Phonograph
+cf3eba4 Add MiXplorer
+e072f24 Viper
+b6fa62e Add LockScreenBlur.
+269e502 Change DPI
+909dc33 Add Doze Service and Ambient Display.
+c058406 Remove dependencies
+79b2b2e Fixes
+dfc75dd tomato: add volte support
+73689b0 tomato: Update media blobs from kipper TOS125B
+074035a tomato: Update post-processing blobs from kipper TOS125B
+496b742 tomato: Update DRM blobs from kipper TOS125B
+67707dc Revert "tomato: Add assertions on baseband version"
+f3ca40d Revert "tomato: Update data configs from TOS111B"
+573dc72 Revert "tomato: Use radio blobs from kipper TOS125B"
+788e0c4 tomato: Add baseband-sh service definition
+8e5d777 QCamera2: Adding missed media extenisons changes
+
+   * hardware/qcom/media-caf/msm8916/
+ec78924 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916
+
+   * hardware/qcom/media-caf/msm8994/
+1afe59f Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994
+
+   * packages/apps/Settings/
+d648cf4 Show ViperOTA in UnOfficial Builds.
+
+====================
+     08-04-2017
+====================
+
+
+   * device/cyanogen/msm8916-common/
+2138283 msm8916-common: overlay: Kang CarrierConfig overlay from op3
+
+   * vendor/viper/
+83ffeec Force Build AudioFX
+
+====================
+     08-03-2017
+====================
+
+
+   * kernel/cyanogen/msm8916/
+4db466e MiniVelocity_v3.0: Update LineageOS's Def-Config
+
+   * vendor/viper/
+f0da0a6 Add OTA
+
+====================
+     08-02-2017
+====================
+
+
+   * device/cyanogen/msm8916-common/
+c60ae5c Power Savings
+0e5c77c Misc
+ddd6795 Turn Auto Brightness Off.
+79c1a10 msm8916-common: Enable adb at boot
+378f1b2 msm8916: Remove QCPATH support
+
+   * kernel/cyanogen/msm8916/
+478283d MakeFile: Disable "maybe-uninitialized" Warning
+9031b1a Faux-Sound: Fix and Modify
+54c5099 Add Faux-Sound Control v3.6
+5c4e879 Quick Charge: Disable by Default
+0224567 Quick Charge: Update Current (mA) Limits on Certain Events
+c8df0b8 Quick Charge: Identify Type of Charging-IC
+dcdc62f Quick Charge: Fix Fundamental Working Process
+182e6dc Quick Charge: Introduce a Charging-Profiles System
+010b639 Quick Charge: Reduce OverHead and Improve Current (mA) Processing
+83d3b2f Quick Charge: Fix Seperate Charging Interfaces for AC and USB
+eef761e Quick Charge: Seperate AC and USB Charging Interfaces
+b043400 Quick Charge: Support BQ24157 and FAN5405 Charging-ICs
+2a84101 Introduce Quick Charge v1.0
+24c659e FAN-5405: Raise Max. Current Limit (DTB)
+5abdd7d Alter Compilation of I/O Schedulers
+ea60cfd Tune the Task-Scheduler for Power-Savings
+9047bfb Use Lowest GPU-Frequency as Initial Power Level
+18e9fd7 Alter GPU-Frequencies to Save Power
+00d2d87 Add System-Wide Power Efficient Workqueues with all Updates
+fc4cf22 Add kCAL Colour Control v2.0 with Optimized Updates
+2e3611a Enable Partial Support for NTFS by Default
+08eb2b7 Add exFAT FileSystem with all Updates
+923d942 Add Relaxed Governor v1.3
+3065b9d Updates, Optimizations and BUG-Fixes to Interactive Governor
+3ea6731 OnDemand Governor: Cache Tunables
+5f5b606 BackPort OnDemand Governor from Linux v3.18
+9d8fc96 Add PowerSuspend v1.7 Driver
+2923f32 Add a Simple Function to Know Display's State (On/Off)
+060045b Add Codes for Enhanced Compatibility
+50a63aa Boot with SELinux Set to Permissive (SD-615)
+ba0bcb0 Adjustment in Kernel Version
+296680f Add dtbToolCM
+8e1045d fs/exec: fix use after free in execve
+8dccc92 defconfig: jalebi/crackling/lettuce/tomato: Set CONFIG_HZ_300=y
+3608af0 defconfig: kipper: Set CONFIG_HZ_100=y
+234fc7c Revert "[android_L][audio]headset detect"
+
+   * packages/apps/Gallery2/
+3b11d2a Automatic translation import
+c88c572 Gallery2: Fix various issues and glitches
+
+   * packages/apps/Snap/
+a206d75 Snap: fix low resolution front camera switch icon
+
+====================
+     08-01-2017
+====================
+
+
+   * device/yu/tomato/
+ebbeec8 tomato: Update extract scripts to latest templates
+d3806ec tomato: Remove egl symlinks
+f4ce6c3 tomato: Enforce vendor tree presence
+98cc05e tomato: Remove QCPATH support
+
+   * packages/apps/Gallery2/
+d74ca5a Gallery2: Fix potential crash
+7e1b2d2 Gallery2: Switch to navigationbar from support libs
+82b6848 Gallery2: Fix can't parse documents uri
+eceb1ed Gallery2: Fix views overlap
+8c7fe64 Gallery2: Support GIF animation
+b923c25 Gallery2: Increase the size of the tiles when decoding images
+ccaf2e4 Gallery2: Support the newly added media file types in MTP mode
+ebce130 Gallery2: Fix use of uninitialized stack variables
+1fbe342 Gallery2: Remove unused renderscript class
+40fe6d2 Gallery2: Fix spelling error
+5a0501d Gallery2: Properly declare the own permissions
+9c69a82 Gallery2: Remove more possible NPEs
+4288cf9 Gallery2: Enable frames in the editor
+09a950e Gallery2: Remove slideshow option if there are only videos
+75e883a Gallery2: Remove 3D overscroll effect
+4cbaf64 Gallery2: Disable dummy starting window
+7aeaefc Gallery2: Fix up audio effects dialog
+cc80b1b Gallery2: Everyone or no one
+a0dc1b8 Gallery2: Replace hamburger menu with bottom bar
+ae2d5c1 Gallery2: Change all share intents to chooser style
+1b893a4 Gallery2: Update menu
+b091264 Gallery2: Update theme
+7eb847c Gallery2: Move & improve CAF strings
+81e24fe Gallery2: Make sure no NPE happens
+9c735ae Gallery2: Remove invalid comment from manifest
+5b0141c Gallery2: Cleanup renderscript flags in Android.mk
+108756a Gallery2: Reduce logspam in video player
+e0c0ac0 Gallery2: Store DATE_TAKEN as milliseconds
+bb16314 Gallery2: Modify AOSP EL translations
+3861e97 Gallery2: Remove CAF translations
+3bf31b2 Gallery2: Add record time to details view
+c1cf324 Gallery2: Fix crash of gallery on showing details
+880d507 Gallery2: Fix crash when Bluetooth service is disabled
+2c75f40 Gallery2: Try to open existing camera
+db84f5b Gallery2: New icon
+5f5c892 Gallery2: Bump minsdk and targetsdk version
+6587213 Gallery: FilterShowActivity: Fix loading spinner being show forever
+55bf17f Gallery: TileImageView: fix NPE
+be9357b FaceDetect: Catch more linker errors during initialization
+8beb6f9 FaceDetect: Catch linker errors during initialization
+ea5a309 Bump API to match dependencies.
+1a3f292 Add missing includes.
+5c74612 Cleanup warnings in jni.
+b7d08f9 Fix misc-macro-parentheses warnings in Gallery2.
+9110325 Float.NaN != ... always evaluates to true, use Float.isNaN.
+69f87c4 Rename app back to Gallery
+
+====================
+     07-31-2017
+====================
+
+
+====================
+     07-30-2017
+====================
+
+
+   * packages/apps/Jelly/
+083e503 Jelly: remove 'Mobile' from desktop user agent
+
+   * packages/apps/Snap/
+db73354 Revert "Revert "SnapdragonCamera: Adding PRIVILEGED true""
+
+   * vendor/viper/
+96a60ed Add Via
+17f751c Remove Jelly
+a7c5c34 fetch device list from my repo
+c9f5867 Add Lawnchair
+4b1dbe3 Remove Vlauncher
+
+====================
+     07-29-2017
+====================
+
+
+   * external/chromium-webview/
+e205b2a Update webview
+
+   * packages/apps/Camera2/
+c8ce5ef Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+19f777a Automatic translation import
+
+   * packages/apps/Email/
+7bf040a Automatic translation import
+
+   * packages/apps/Jelly/
+8214795 Automatic translation import
+
+   * packages/apps/TvSettings/
+48bf259 Automatic translation import
+
+====================
+     07-28-2017
+====================
+
+
+   * packages/apps/Snap/
+bbb6ee1 Revert "SnapdragonCamera: Adding PRIVILEGED true"
+
+   * system/bt/
+b30e393 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1
+
+====================
+     07-27-2017
+====================
+
+
+   * hardware/qcom/fm/
+7e027bc Automatic translation import
+
+   * packages/apps/Email/
+00af046 Automatic translation import
+
+   * packages/apps/Jelly/
+b40c1b5 Automatic translation import
+
+   * packages/apps/Snap/
+9a17e64 Automatic translation import
+
+   * system/netd/
+b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.
+
+====================
+     07-26-2017
+====================
+
+
+====================
+     07-25-2017
+====================
+
+
+====================
+     07-24-2017
+====================
+
+
+   * hardware/qcom/fm/
+41ccba0 Automatic translation import
+
+   * packages/apps/AudioFX/
+530b16b Automatic translation import
+
+   * packages/apps/Bluetooth/
+2cf33d5 Automatic translation import
+
+   * packages/apps/Camera2/
+8627c94 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+607056c Automatic translation import
+
+   * packages/apps/Jelly/
+19b34ac Automatic translation import
+1e0f603 Automatic translation import
+
+   * packages/apps/Snap/
+b32e764 Automatic translation import
+
+   * packages/apps/Terminal/
+9f5d391 Automatic translation import
+
+====================
+     07-23-2017
+====================
+
+
+   * packages/apps/Jelly/
+b8270d7 Jelly: Allow to display pages in full screen mode
+

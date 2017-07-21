@@ -1,0 +1,194 @@
+
+ ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
+
+
+ ▼ 10/13/2017
+
+
+ ▪ project device/cyanogen/msm8916-common/
+ ▪ 8d17013 Improve PS
+
+ ▪ project kernel/cyanogen/msm8916/
+ ▪ dff9795 KCUF V1
+ ▪ 51f9e13 wakeup: Block qcom wakelocks by default
+ ▪ ed28834 workqueue: allow rescuer thread to do more work.
+ ▪ bd2a0ab int_sqrt: Improve 3x faster integer sqrt.
+ ▪ 7a50108 int_sqrt.c: Correction square root algo with naming
+ ▪ d51585e Optimized Console FrameBuffer for upto 70% increase in Performance
+ ▪ 65fd83a Readahead: Optimize divide/multiply by power of 2 using L/R shift
+ ▪ bf35a18 sched: Micro-optimize the smart wake-affine logic
+ ▪ ef0a2ff sched: Implement smarter wake-affine logic
+ ▪ 2dc26a2 qcom-cpufreq: Prevent false check
+ ▪ fae1a7f drivers: wakeup: block some bastard wakeups
+ ▪ 43005e6 cpuidle: don't disable cpuidle when entering suspend
+ ▪ 4de424e kobject: Fix "add_uevent_var: too many keys" warn.
+ ▪ 1a39f08 mm: vmscan: lower swappiness to 10
+ ▪ 08048c0 writeback: Do not sort b_io list only because of block device inode
+ ▪ c3e8536 tracing: Fix event header writeback.h to include tracepoint.h
+ ▪ 3f5d953 cpufreq: qcom-cpufreq: Check return of cpufreq_frequency_get_table
+ ▪ 8dcf6bf workqueue: Fix workqueue stall issue after cpu down failure
+ ▪ 37c92ae workqueue: clear POOL_DISASSOCIATED in rebind_workers()
+ ▪ 96a64a2 workqueue: make sure delayed work run in local cpu
+ ▪ d2348f9 power: qpnp-vm-bms: Use power efficient workqueue
+ ▪ 8dd9d2f power: power_supply: Use power efficient workqueue
+ ▪ 2eac456 regulator: qpnp-regulator: Use power efficient workqueue
+ ▪ 0b4e66a firmware: use power efficient workqueue for unloading and aborting fw load
+ ▪ a78cdde PHYLIB: queue work on system_power_efficient_wq
+ ▪ e2cb136 timekeeping: Move clock sync work to power efficient workqueue
+ ▪ 1385637 usb: move hub init and LED blink work to power efficient workqueue
+ ▪ d6c2ace block: remove WQ_POWER_EFFICIENT from kblockd
+ ▪ b51ed82 power: bcl: queue work on system_power_efficient_wq
+ ▪ edeac88 drivers: thermal: queue work on system_power_efficient_wq
+ ▪ f2165ef net: wireless: move regulatory timeout work to power efficient workqueue
+ ▪ e27df7e net: rfkill: move poll work to power efficient workqueue
+ ▪ 2c62a34 net/neighbour: queue work on power efficient wq
+ ▪ ede9601 net/ipv4: queue work on power efficient wq
+ ▪ 1aa289a ASoC: compress: Use power efficient workqueue
+ ▪ dbe0df9 extcon: adc-jack: Use power efficient workqueue
+ ▪ 29fe457 extcon: gpio: Use power efficient workqueue for debounce
+ ▪ 1913601 ASoC: jack: Use power efficient workqueue
+ ▪ eb3e64b regulator: core: Use the power efficient workqueue for delayed powerdown
+ ▪ 492d35c ASoC: pcm: Use the power efficient workqueue for delayed powerdown
+ ▪ 99f74d1 fbcon: queue work on power efficient wq
+ ▪ 0f1ce85 block: queue work on power efficient wq
+ ▪ 6fd5abb workqueue: Add system wide power_efficient workqueues
+ ▪ 03bf4a6 workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
+ ▪ abd2063 arm64: Add NOHZ
+ ▪ 03472c2 arm64: Enable DCACHE_WORD_ACCESS
+ ▪ fe9e5ea arm64: use the new *_relaxed macros for lower power usage
+ ▪ f0aa9aa locking/asm-generic: Add _{relaxed|acquire|release}() variants for inc/dec atomics
+ ▪ ea1003f locking/atomics: Add _{acquire|release|relaxed}() variants of some atomic operations
+ ▪ afc22e9 locking: Remove deprecated smp_mb__() barriers
+ ▪ b42b8a3 locking, asm-generic: Add _{relaxed|acquire|release}() variants for 'atomic_long_t'
+ ▪ 48a35eb locking, asm-generic: Rework atomic-long.h to avoid bulk code duplication
+ ▪ 05cdb7a kernel: cpu: use cpu_read_relaxed on cpu_down()
+ ▪ 1969132 arm64: atomic: add missing macros
+ ▪ 059a941 llist: defining relaxed version of llist_empty
+ ▪ a8972ac arm64: processor.h: remove redundant macros
+ ▪ e9b78c5 ARM64: defining macros to optimize power usage
+ ▪ 98c5134 arm: asm: relaxed.h: defined relaxed.h
+ ▪ 58fea20 asm-generic: processor.h: remove redundant macros
+ ▪ 1360597 asm-generic: processor.h: adding new header file
+ ▪ 9c60273 arm64: atomic.h: defining relaxed atomic_read
+ ▪ f0751d9 arm: atomic.h: defined relaxed atomic_read
+ ▪ aada819 asm-generic: atomic.h: relaxed atomic_read
+ ▪ 8c2a027 arm64: asm: relaxed.h: defined relaxed.h
+ ▪ 5466dc0 asm-generic: relaxed.h: defined relaxed.h
+ ▪ 66d3559 hrtimer: Replace usage of hrtimer_callback_running with the new relaxed version for less power usage
+ ▪ 95812f5 hrtimer: enhance power efficiency
+ ▪ a89bfd0 thread_info: enhance power efficiency
+ ▪ fb12eb1 kernel: Disable SCHED_HRTICK
+ ▪ 4725856 core_ctl: Make delays tunable per-core
+ ▪ e1fd0ef core_ctl: Fix elapsed time calculation
+ ▪ 9f78575 core_ctl: Add online delay tunable
+ ▪ 8337e05 sched: core_ctl: Remove unnecessary new line character in sscanf()
+ ▪ 0957462 core_ctl: Allow certain CPUs to always be kept online
+ ▪ b813e29 core_ctrl: Fix usage of sscanf function
+ ▪ 9eed29b sched: Add a knob to disable the core_ctl
+ ▪ 8fc97f7 sched: Change default hmp values
+ ▪ c7c87b7 sched: hmp: Change sched_small_task to 60
+ ▪ 2002b30 sched: Set sched_upmigrate_min_nice to 9
+ ▪ 75221fe Fix
+ ▪ 3e1ff1a Add kCAL Colour Control v2.0 with Optimized Updates
+ ▪ 85acb6b PM: devfreq: Fix show available freqs
+ ▪ a33e309 msm: kgsl: Report correct GPU frequency in sysfs
+ ▪ 547d21e cpufreq: governor: remove copy_prev_load from 'struct cpu_dbs_common_info'
+ ▪ 7417693 cpufreq: governor: Be friendly towards latency-sensitive bursty workloads
+ ▪ 9edeb22 msm: Fix high load average from uninterruptible waits
+ ▪ 60d660f kernel: alarm: Increase power-on alarm before alarm time to 300 sec  * Makes sure the device has completely booted under every circumstances  * Prevent missed alarms if the user has a very high amount of apps
+ ▪ 6177457 BACKPORT: commoncap: don't alloc the credential unless needed in cap_task_prctl
+ ▪ 3e995d8 arch: msm: Select performance CPU governor
+ ▪ 870b2a7 HACK: cpufreq: Force performance CPU governor as default with ARCH_MSM
+ ▪ 7c65ca7 arm: dts: msm8939: Enable power aware scheduling
+ ▪ 0e247fd arm: dts: msm8939: Boot with all CPUs
+ ▪ 326583e sched/fair: Avoid integer overflow
+ ▪ 836ca3b sched: Optimize task_sched_runtime()
+ ▪ 71ea26b Enable arch power
+ ▪ a2ace28 block: Disable add_random
+ ▪ 8667810 Reduced WakeLocks
+ ▪ 072601a msm8939: Undervolted CPU
+ ▪ 35efde8 msm8939: lower the minimum CPU regulator voltage
+ ▪ 7060f8e msm8939: mild undervolt for heat reduction
+ ▪ 76e8171 sched: Enable agressive multi-core power savings
+ ▪ 73a0529 soc: qcom: Nuked msm_performance driver
+ ▪ a057d6d sched/fair: Fix and optimize the fork() path
+ ▪ 405fe67 sched: Allow migrating kthreads into online but inactive CPUs
+ ▪ f4e8ee4 Reduced CPU Load-Average
+ ▪ 2ae949b Fixed High-Load Average due to Drivers
+ ▪ 1109381 Quick Charge: Add One more profile with custom current.
+ ▪ 3ab62b5 UnderCloc GPU
+ ▪ 3796275 Quick Charge: Disable by Default
+ ▪ 2c32127 Quick Charge: Improve Reading of Max. Current (mA)
+ ▪ 02e3db3 Quick Charge: Update Current (mA) Limits on Certain Events
+ ▪ 2a645c4 Quick Charge: Identify Type of Charging-IC
+ ▪ f9ce814 Quick Charge: Fix Fundamental Working Process
+ ▪ 07d4305 Quick Charge: Introduce a Charging-Profiles System
+ ▪ e05b5dd Quick Charge: Reduce OverHead and Improve Current (mA) Processing
+ ▪ 586f7ac Quick Charge: Seperate AC and USB Charging Interfaces
+ ▪ 15598f1 Quick Charge: Support BQ24157 and FAN5405 Charging-ICs
+ ▪ e553d60 Introduce Quick Charge v1.0
+ ▪ 7ac9d89 Faux-Sound: Fix and Modify
+ ▪ 7eb1c7e Add Faux-Sound Control v3.6
+ ▪ ed4b0d4 Increase Max Charge Current
+ ▪ 01c9121 Squash: Update Interactive Governor
+ ▪ 4123960 Add a Simple Function to Know Display's State (On/Off)
+ ▪ 662b7c0 Add Codes for Enhanced Compatibility
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 1593371 PackageInstaller: fix install button after merge of October ASB
+
+ ▪ project packages/apps/Settings/
+ ▪ e5b72d3 Show Rom Developer
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ c3b2008 SetupWizard: Set min date to build date
+
+ ▼ 10/09/2017
+
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 947a320 Gallery: Kill media effect dialog on movies
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 10/08/2017
+
+
+ ▪ project hardware/ril/
+ ▪ d8fb8ff Fix multi sim support and warnings
+
+ ▪ project hardware/ril-caf/
+ ▪ ef31609 Fix multi sim support and warnings
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 121bd84 Gallery2: Fix crash when muting a video
+ ▪ e171921 Fix gallery crash when trimming video
+
+ ▪ project system/bt/
+ ▪ b882eee Fix allocating buffers of the right size when BT_HDR is included
+
+ ▼ 10/07/2017
+
+
+ ▪ project build/
+ ▪ 6c01989 Fixes
+
+ ▪ project device/yu/tomato/
+ ▪ d7b887c tomato: Add more radio blobs from kipper TOS125B
+ ▪ 0ed0752 Revert "Revert "tomato: Use radio blobs from kipper TOS125B""
+ ▪ 1fd2e45 Revert "tomato: add volte support"
+ ▪ 32765f0 Update Phonograph
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ e91a5f0 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.17' into cm-14.1-caf-8994
+
+ ▪ project kernel/cyanogen/msm8916/
+ ▪ 0718afd Merge remote-tracking branch 'msm8916/cm-14.1' into cm-14.1
+
+ ▪ project vendor/yu/
+ ▪ b648ed9 tomato: Add more radio blobs from kipper TOS125B
+ ▪ 0d7a1f5 tomato: Update media blobs from kipper TOS125B
+ ▪ 7e648d3 tomato: Update post-processing blobs from kipper TOS125B
+ ▪ 8395c6f tomato: Update DRM blobs from kipper TOS125B
+ ▪ 934fd70 Add garlic.
+

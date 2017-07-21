@@ -1,0 +1,28 @@
+{
+   "filename":"Viper-tomato-7.1.2-Python-v2.1-20170805-UNOFFICIAL.zip",
+   "build_date":"20170805",
+   "filesize":"469762253",
+   "md5":"d8c6655a03c21849b0e5a36fc72ef1e5",
+   "developer":"Anand Shekhawat (Shekhawat2)",
+   "url":"https://www.dropbox.com/s/58w0yx8dr6vy3jh/Viper-tomato-7.1.2-Python-v2.1-20170805-UNOFFICIAL.zip?dl=1",
+   "changelog_url":"https://raw.githubusercontent.com/shekhawat2/OTA/master/ViperChangelog.html",
+   "website_url":"http://forums.yuplaygod.com/index.php?threads/50061",
+   "addons":[
+      {
+         "title":"Open Gapps",
+         "summary":"Android 7.1-pico",
+         "url":"http://opengapps.org"
+      },
+      {
+         "title":"Magisk",
+         "summary":"MagiskSu v12.0",
+         "url":"http://tiny.cc/latestmagisk"
+      },
+      {
+         "title":"SuperSU",
+         "summary":"SuperSU v2.79",
+         "url":"http://google.com"
+      }
+   ],
+   "android_version":"7.1.2"
+}
