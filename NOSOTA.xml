@@ -3,7 +3,7 @@
 <RomName>Nitrogen-OS</RomName>
 <VersionName>Nitrogen-OS-tomato-20171218</VersionName>
 <VersionNumber type="integer">20171218</VersionNumber>
-<DirectUrl><![CDATA[https://www.dropbox.com/s/nig9eafodbklfso/Nitrogen-OS-O-tomato-20171218.zip?dl=1/download]]></DirectUrl>
+<DirectUrl><![CDATA[https://www.dropbox.com/s/nig9eafodbklfso/Nitrogen-OS-O-tomato-20171218.zip?dl=1]]></DirectUrl>
 <HttpUrl><![CDATA[https://drive.google.com/file/d/1rPVg22_lUwwcRqKWVyTpO_HcEDSoJs5n/view?usp=drivesdk]]></HttpUrl>
 <Android>8.1.0</Android>
 <CheckMD5 nil="true" />
