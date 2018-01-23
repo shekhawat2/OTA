@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> <hash>
+    <addons>
+        <addon>
+            <id>1</id> <!-- Use integers only, make them unique -->
+            <name>Gapps</name> <!-- The name, simples -->
+            <description>Pico OpenGApps with Facelock</description> <!-- You can use markdown here if you want -->
+            <updated-at>2018-01-23</updated-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>117243913</size> <!-- filesize in bytes -->
+            <download-link>
+		https://sourceforge.net/projects/shekhawat2/files/Gapps/open_gapps-arm64-8.1-pico-20180123-UNOFFICIAL.zip/download
+            </download-link>
+        </addon>
+    </addons>
+</hash>
