@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>Nitrogen-OS</RomName>
-<VersionName>Nitrogen-OS-tomato-20171218</VersionName>
-<VersionNumber type="integer">20171218</VersionNumber>
-<DirectUrl><![CDATA[https://www.dropbox.com/s/nig9eafodbklfso/Nitrogen-OS-O-tomato-20171218.zip?dl=1]]></DirectUrl>
-<HttpUrl><![CDATA[https://drive.google.com/file/d/1rPVg22_lUwwcRqKWVyTpO_HcEDSoJs5n/view?usp=drivesdk]]></HttpUrl>
+<VersionName>Nitrogen-OS-tomato-20180123</VersionName>
+<VersionNumber type="integer">20180123</VersionNumber>
+<DirectUrl><![CDATA[https://sourceforge.net/projects/shekhawat2/files/NitrogenRom/Nitrogen-OS-O-tomato-20180123.zip/download]]></DirectUrl>
+<HttpUrl><![CDATA[https://drive.google.com/file/d/1tYDFbqkuShAxLxeHkJz4Fb2XXnErgUw1/view?usp=drivesdk]]></HttpUrl>
 <Android>8.1.0</Android>
 <CheckMD5 nil="true" />
-<FileSize type="integer">387042204</FileSize>
+<FileSize type="integer">385696282</FileSize>
 <Developer><![CDATA[Shekhawat2]]></Developer>
 <WebsiteURL><![CDATA[https://plus.google.com/communities/111037372581335961267]]></WebsiteURL>
 <DonateURL><![CDATA[NoDonation]]></DonateURL>
