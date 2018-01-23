@@ -12,6 +12,52 @@
 <WebsiteURL><![CDATA[https://plus.google.com/communities/111037372581335961267]]></WebsiteURL>
 <DonateURL><![CDATA[NoDonation]]></DonateURL>
 <Changelog>
-<![CDATA[Changelog]]>
-</Changelog>
+All Nitrogen-Project Changes 
++ 
+My Changes:
+Fix Offline Charging.
+Fix Enable 
+low-power-mode on boot.(maybe the cause for dead batteries)
+Fix 60fps bug in Youtube 
+
+Personalizations:
+Animations: 
+-System Animations 
+-Listview Animations 
+-Listview Interpolers 
+-Scrolling Cache 
+
+MusicSetting: 
+-Audio Focus 
+-Launch Music player on connect Headset. 
+
+QuickSettings: 
+-Small Tiles Scroller 
+-Music Tile 
+
+NavigationBar: 
+-Pixel NavBar 
+
+Gestures: 
+-3Fingers Screenshot 
+
+Recents:
+-Add Membar to recents 
+
+Power Menu: 
+-Added Advance Reboot option 
+
+Notifications: 
+-Ticker(Disable HeadsUp to use ticker) 
+
+Settings: 
+Display: 
+-Extended Desktop 
+-Ambient Display 
+
+Lockscreen: 
+-Unlock with face without swipe.(op5t)
+
+Full Substratum Support
+<![CDATA[Changelog]]> </Changelog>
 </ROM>
