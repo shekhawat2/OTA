@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+<RomName>Nitrogen-OS</RomName>
+<VersionName>Nitrogen-OS-land-20180205</VersionName>
+<VersionNumber type="integer">20180205</VersionNumber>
+<DirectUrl><![CDATA[https://sourceforge.net/projects/unitrogen/files/Land/Nitrogen-OS-O-land-20180205.zip/download]]></DirectUrl>
+<HttpUrl><![CDATA[https://sourceforge.net/projects/unitrogen/files/Land/Nitrogen-OS-O-land-20180205.zip/download]]></HttpUrl>
+<Android>8.1.0</Android>
+<CheckMD5 nil="true" />
+<FileSize type="integer">617438385</FileSize>
+<Developer><![CDATA[Shekhawat2]]></Developer>
+<WebsiteURL><![CDATA[https://plus.google.com/communities/111037372581335961267]]></WebsiteURL>
+<DonateURL><![CDATA[NoDonation]]></DonateURL>
+<Changelog>
+<![CDATA[
+All Nitrogen-Project Features
+
+Additional Features:
+
+Personalizations:
+
+StatusBar:
+
+-StatusBar Clock Customizations
+
+-Carrier Lable
+
+-Small Tiles Scroller
+
+-Music Tile
+
+-4G/LTE Switch
+
+-Disable Roaming Indicator Switch
+
+Animations: 
+
+-ScreenOff Animations
+
+-System Animations 
+
+-Listview Animations 
+
+-Listview Interpolers 
+
+-Scrolling Cache 
+
+MusicSetting: 
+
+-Audio Focus 
+
+-Launch Music player on connect Headset. 
+
+NavigationBar: 
+
+-Pixel NavBar 
+
+-Automatic Pulse Color
+
+Gestures: 
+
+-3Fingers Screenshot 
+
+Recents:
+
+-Add Membar to recents 
+
+Power Menu: 
+
+-Added Advance Reboot option 
+
+-LockScreen Visiblity
+
+Notifications: 
+
+-Ticker(Disable HeadsUp to use ticker) 
+
+Display: 
+
+-AOSPExtended Theme
+
+-Extended Desktop 
+
+-Ambient Display 
+
+LockScreen:
+
+-CM pattern Lock(4x4, 5x5, 6x6)
+
+-Skip Swipe
+
+Partial Substratum Support
+]]> </Changelog>
+</ROM>
