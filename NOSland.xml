@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>Nitrogen-OS</RomName>
-<VersionName>Nitrogen-OS-land-20180205</VersionName>
-<VersionNumber type="integer">20180205</VersionNumber>
-<DirectUrl><![CDATA[https://sourceforge.net/projects/unitrogen/files/Land/Nitrogen-OS-O-land-20180205.zip/download]]></DirectUrl>
-<HttpUrl><![CDATA[https://sourceforge.net/projects/unitrogen/files/Land/Nitrogen-OS-O-land-20180205.zip/download]]></HttpUrl>
+<VersionName>Nitrogen-OS-land-20180207</VersionName>
+<VersionNumber type="integer">20180207</VersionNumber>
+<DirectUrl><![CDATA[https://downloads.sourceforge.net/project/unitrogen/Land/Nitrogen-OS-O-land-20180207.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Funitrogen%2Ffiles%2FLand%2F&ts=1517971355&use_mirror=excellmedia]]></DirectUrl>
+<HttpUrl><![CDATA[https://sourceforge.net/projects/unitrogen/files/Land/Nitrogen-OS-O-land-20180207.zip/download]]></HttpUrl>
 <Android>8.1.0</Android>
-<CheckMD5 nil="true" />
-<FileSize type="integer">617438385</FileSize>
+<CheckMD5>33d65fd8ff4d5fecfaa607c99ffc4bfa</CheckMD5>
+<FileSize type="integer">657871058</FileSize>
 <Developer><![CDATA[Shekhawat2]]></Developer>
 <WebsiteURL><![CDATA[https://plus.google.com/communities/111037372581335961267]]></WebsiteURL>
 <DonateURL><![CDATA[NoDonation]]></DonateURL>
 <Changelog>
 <![CDATA[
+07/02/2017
+
+-Gcam Fix
+
+-Lockscreen Visualizer
+
+-Improved Amvient Brightness and switch for Last ScreenOn brightness brightness
+
+-Ambient Visualizer
+
 All Nitrogen-Project Features
 
 Additional Features:
@@ -90,5 +100,15 @@ LockScreen:
 -Skip Swipe
 
 Partial Substratum Support
+
+07/02/2017
+
+-GCam Fix
+
+-Lockscreen Visualizer
+
+-Improved Ambient display brightness and added a switch for Auto brightness
+
+-Ambient Music Visualizer
 ]]> </Changelog>
 </ROM>
