@@ -2,7 +2,7 @@
   "kernel": {
     "name": "KCUFKernel",
     "version": "V01",
-    "link": "https://sourceforge.net/projects/shekhawat2/files/kernel/KCUFKernel-V01-whyred-20200518-08_24_06.zip/download",
+    "link": "https://astuteinternet.dl.sourceforge.net/project/shekhawat2/kernel/KCUFKernel-V01-whyred-20200518-08_24_06.zip",
     "changelog_url": "https://github.com/shekhawat2/OTA/raw/master/RRChangelog.txt",
     "date": "2020-05-18",
     "sha1": "5011d3f7e941c96b8e7ef1a260edb41d6bc04d3a"
