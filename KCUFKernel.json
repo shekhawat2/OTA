@@ -1,1 +1,13 @@
-{"kernel":{"sha1":"c17767a7cffc9d684d0fdf758151655ddd221194","name":"KCUFKernel","link":"https:\/\/drive.google.com\/uc?export=download&id=1L1naP7jzrxccSFF56JnIoKbwX0UACQtz","changelog_url":"Initial","version":"V1.1"},"support":{"link":"","donation":""}}
+{
+  "kernel": {
+    "name": "KCUFKernel",
+    "version": "V01",
+    "link": "https://sourceforge.net/projects/shekhawat2/files/kernel/KCUFKernel-V01-whyred-20200508-21_56_37.zip/download",
+    "changelog_url": "https://github.com/shekhawat2/OTA/raw/master/RRChangelog.txt",
+    "date": "2020-05-08",
+    "sha1": "df9c340ff8f1eedf520b826a2c3a664fcc35c184"
+  },
+  "support": {
+    "link": ""
+  }
+}
